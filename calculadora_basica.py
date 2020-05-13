@@ -1,10 +1,19 @@
+def linha():
+    print('-=-' * 30)
+
+
 def soma(x, z):
-    return x + z
+    s = x + z
+    linha()
+    print(f'{x}+{y}={s}')
+
 
 lang = str(input('Português/English? [P/E]')).upper()
 
 if lang in 'PPORTUGUÊSPORTUGUES':
     x = int(input('Digite um número: '))
+    y = int(input('Digite um número: '))
+    soma(x, y)
 
 elif lang in 'EENGLISH':
     x = int(input('Type a number: '))
