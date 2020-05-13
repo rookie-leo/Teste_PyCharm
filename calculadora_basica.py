@@ -8,3 +8,4 @@ if lang in 'PPORTUGUÊSPORTUGUES':
 
 elif lang in 'EENGLISH':
     x = int(input('Type a number: '))
+    y = int(input('Type a number: '))
