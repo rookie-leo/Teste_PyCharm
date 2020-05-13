@@ -19,9 +19,12 @@ if lang in 'PPORTUGUÊSPORTUGUES':
     x = int(input('Digite um número: '))
     y = int(input('Digite um número: '))
     soma(x, y)
+    linha()
     sub(x, y)
 
 elif lang in 'EENGLISH':
     x = int(input('Type a number: '))
     y = int(input('Type a number: '))
     soma(x, y)
+    linha()
+    sub(x, y)
